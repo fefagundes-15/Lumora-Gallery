@@ -1,0 +1,1959 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lumora Gallery</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="images/favicon/favicon.png" type="image/x-icon">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+
+    <style>
+        .content {
+            transition: opacity 0.5s ease, transform 0.5s ease;
+            opacity: 0;
+            transform: translateY(-20px);
+            display: none;
+            pointer-events: none;
+        }
+
+        .content.visible {
+            opacity: 1;
+            transform: translateY(0);
+            display: flex;
+            pointer-events: auto;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <a href="#top">
+        <div class="btnBackToTop"></div>
+    </a>
+
+    <header class="topHeader maxWidth" id="top">
+        <div class="topHeader__container">
+            <a href="index.html">
+                <h1 class="topHeader__title">Lumora</h1>
+                <h2 class="topHeader__slogan">Iluminando ideias, conectando histórias.</h2>
+            </a>
+        </div>
+
+        <!-- Citação -->
+        <blockquote class="mainHeader__quote">
+            "A arte é a rainha de todas as ciências, comunicando conhecimento a todas as gerações do mundo."
+            <cite class="mainHeader__cite">– Leonardo da Vinci</cite>
+        </blockquote>
+    </header>
+
+    <main>
+        <section class="mainContent">
+            <h2 class="mainContent__title">Selecione uma categoria e explore mais:</h2>
+
+            <!-- #region ABSTRATO -->
+            <div class="mainContent__container">
+                <h3 class="toggleContent">Abstrato</h3>
+                <div class="maxWidth row content hidden">
+                    <p class="container__resumo">A arte abstrata rompe com a representação fiel da realidade, usando
+                        formas, cores e linhas para expressar emoções e
+                        ideias. Ela não busca retratar objetos reconhecíveis, mas sim explorar a liberdade criativa e a
+                        expressão subjetiva.</p>
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/wassily_kandisnsky.jpg" alt="Imagem de arte abstrata">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Composição VIII" (1923) - Wassily Kandinsky</h2>
+                                <p>Formas e cores que se comparam a uma sinfonia, criando harmonia visual e
+                                    emocional.
+                                </p>
+                                <a href="html/Composição VIII (1923) - Wassily Kandinsky.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/piet_mondrian.jpg" alt="Imagem de arte abstrata">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Broadway Boogie Woogie" (1942-1943) - Piet Mondrian
+                                </h2>
+                                <p>Ritmo da energia de Nova York que cria uma 'dança visual'
+                                    cheia de movimento e energia.</p>
+                                <a href="html/Broadway Boogie Woogie (1942-1943) - Piet Mondrian.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/jackson_pollock.jpg" alt="Imagem de arte abstrata">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Número 1 (Lavanda e Verde)" (1950) - Jackson
+                                    Pollock</h2>
+                                <p>Exemplo de 'action painting', onde o processo
+                                    criativo é crucial junto ao resultado.</p>
+                                <a href="html/Número 1 (Lavanda e Verde) (1950) - Jackson Pollock.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/kazimir_malevich.jpg" alt="Imagem de arte abstrata">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Black Square" (1915) - Kazimir Malevich</h2>
+                                <p>Obra chamada de 'zero da forma'. O fim da arte
+                                    tradicional e o início de uma nova era pura e
+                                    abstrata.</p>
+                                <a href="html/Black Square (1915) - Kazimir Malevich.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/willem_de_kooning.jpg" alt="Imagem de arte abstrata">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Mulher I" (1950-1952) - Willem de Kooning</h2>
+                                <p>Demonstração da figura feminina como um tema complexo, entre beleza e grotesco.</p>
+                                <a href="html/Mulher I (1950-1952) - Willem de Kooning.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/mark_rothko.jpg" alt="Imagem de arte abstrata">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"No. 61 (Rust e Azul)" (1953) - Mark Rothko</h2>
+                                <p>Rothko criava 'experiências
+                                    dramáticas' para serem sentidas, não apenas vistas.</p>
+                                <a href="html/No. 61 (Rust e Azul) (1953) - Mark Rothko.html"
+                                    class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/henri_matisse.jpg" alt="Imagem de arte abstrata">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Dança" (1910) - Henri Matisse</h2>
+                                <p>Alegria da dança com formas simples e cores vibrantes, celebrando a vida e a
+                                    liberdade.</p>
+                                <a href="html/A Dança (1910) - Henri Matisse.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/piet_mondrian-2.jpg" alt="Imagem de arte abstrata">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Vermelho, Azul e Amarelo" (1930) - Piet Mondrian
+                                </h2>
+                                <p>Linhas retas e cores primárias para criar
+                                    equilíbrio e simplicidade no
+                                    neoplasticismo.</p>
+                                <a href="html/Vermelho, Azul e Amarelo (1930) - Piet Mondrian.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region BARROCO -->
+            <div class="mainContent__container">
+                <h3 class="toggleContent">Barroco</h3>
+                <div class="maxWidth row content hidden">
+                    <p class="container__resumo">A arte barroca, dos séculos XVII e XVIII, destacava-se pelo drama,
+                        emoção intensa e realismo. Usando contrastes de luz e
+                        sombra (chiaroscuro), buscava impressionar, refletindo a espiritualidade da Contrarreforma e o
+                        poder da monarquia e
+                        aristocracia.</p>
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/caravaggio.jpg" alt="Imagem de arte barroca">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Vocação de São Mateus" (1600) - Caravaggio</h2>
+                                <p>Uso dramático de luz e sombra para retratar o momento em que Jesus chama Mateus.</p>
+                                <a href="html/A Vocação de São Mateus (1600) - Caravaggio.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/rembrandt.jpg" alt="Imagem de arte barroca">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Ronda Noturna" (1642) - Rembrandt</h2>
+                                <p>Retrato dinâmico de uma milícia, com jogos de luz e sombra que criam movimento.</p>
+                                <a href="html/A Ronda Noturna (1642) - Rembrandt.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/frans_hals.jpg" alt="Imagem de arte barroca">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Cavaleiro Risonho" (1624) - Frans Hals</h2>
+                                <p>Retrato vibrante de um cavaleiro, capturando sua expressão alegre e espontânea.</p>
+                                <a href="html/O Cavaleiro Risonho (1624) - Frans Hals.html"
+                                    class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class=" col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/bernini.jpg" alt="Imagem de arte barroca">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Êxtase de Santa Teresa" (1652) - Gian Lorenzo Bernini
+                                </h2>
+                                <p>Escultura que captura o momento místico de Santa Teresa.</p>
+                                <a href="html/Êxtase de Santa Teresa (1652) - Gian Lorenzo Bernini.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/peter_paul_rubens.jpg" alt="Imagem de arte barroca">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Descida da Cruz" (1614) - Peter Paul Rubens</h2>
+                                <p>Cena dramática da crucificação de Cristo, com cores vibrantes e figuras em movimento.
+                                </p>
+                                <a href="html/A Descida da Cruz (1614) - Peter Paul Rubens.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/diego_velazquez.jpg" alt="Imagem de arte barroca">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"As Meninas" (1656) - Diego Velázquez</h2>
+                                <p>Retrato complexo da família real espanhola, com jogos de perspectiva e luz.</p>
+                                <a href="html/As Meninas (1656) - Diego Velázquez.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/artemisia_gentileschi.jpg" alt="Imagem de arte barroca">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Judite Decapitando Holofernes" (1620) - Artemisia
+                                    Gentileschi</h2>
+                                <p>Cena violenta e dramática, com foco na força e determinação de Judite.</p>
+                                <a href="html/Judite Decapitando Holofernes (1620) - Artemisia Gentileschi.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/nicolas_poussin.jpg" alt="Imagem de arte barroca">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Os Pastores da Arcádia" (1638) - Nicolas Poussin</h2>
+                                <p>Cena pastoral que reflete sobre a mortalidade, com composição equilibrada e clássica.
+                                </p>
+                                <a href="html/Os Pastores da Arcádia (1638) - Nicolas Poussin.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region CONTEMPORÂNEA -->
+            <div class="mainContent__container">
+                <h3 class="toggleContent">Contemporâneo</h3>
+                <div class="maxWidth row content hidden">
+                    <p class="container__resumo">A arte contemporânea, do século XX em diante, é diversa e inovadora,
+                        explorando temas sociais, políticos e tecnológicos.
+                        Sem um estilo definido, prioriza a crítica, a interação e o questionamento do que é arte.</p>
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/jeff_koons.jpg" alt="Imagem de arte contemporânea">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Baloon Dog" (1994-2000) - Jeff Koons</h2>
+                                <p>Koons explora a ideia de banalidade transformada em arte, questionando o valor e
+                                    a função da arte na sociedade.
+                                </p>
+                                <a href="html/Baloon Dog (1994-2000) - Jeff Koons.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/damien_hirst.jpg" alt="Imagem de arte contemporânea">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"The Physical Impossibility of Death in the Mind of
+                                    Someone Living" (1991) - Damien Hirst</h2>
+                                <p>Hirst aborda temas como a morte e a relação entre ciência
+                                    e arte.</p>
+                                <a href="html/The Physical Impossibility of Death in the Mind of Someone Living (1991) - Damien Hirst.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/louise_bourgeois.jpg" alt="Imagem de arte contemporânea">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Maman" (1999) - Louise Bourgeois</h2>
+                                <p>Bourgeois usou a aranha como metáfora sobre sua relação complexa com a
+                                    mãe simbolizando proteção, fragilidade e força.</p>
+                                <a href="html/Maman (1999) - Louise Bourgeois.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/tracey_emin.jpg" alt="Imagem de arte contemporânea">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"My Bed" (1998) - Tracey Emin</h2>
+                                <p>Representação crua e autobiográfica de um período depressivo da
+                                    artista, questionando os limites entre arte
+                                    e vida.</p>
+                                <a href="html/My Bed (1998) - Tracey Emin.html" class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/christo_jeanne_claude.jpg" alt="Imagem de arte contemporânea">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"The Gates" (2005) - Christo e Jeanne-Claude</h2>
+                                <p>7.503 portais de
+                                    tecido laranja. As pessoas podem interagir com a arte de forma
+                                    efêmera.
+                                </p>
+                                <a href="html/The Gates (2005) - Christo e Jeanne-Claude.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/olafur_eliasson.jpg" alt="Imagem de arte contemporânea">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"The Weather Project" (2003) - Olafur Eliasson</h2>
+                                <p>A obra convida o público a refletir sobre a natureza, a percepção e a experiência
+                                    coletiva.</p>
+                                <a href="html/The Weather Project (2003) - Olafur Eliasson.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/joseph_kosuth.jpg" alt="Imagem de arte contemporânea">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"One and Three Chairs" (1965) - Joseph Kosuth</h2>
+                                <p>A obra questiona a natureza da
+                                    representação e o significado da arte conceitual.</p>
+                                <a href="html/One and Three Chairs (1965) - Joseph Kosuth.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/banksy.jpg" alt="Imagem de arte contemporânea">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Girl with Balloon" (2002) - Banksy</h2>
+                                <p>A obra, muitas vezes associada a temas de esperança e perda.</p>
+                                <a href="html/Girl with Balloon (2002) - Banksy.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region CUBISMO -->
+            <div class="mainContent__container">
+                <h3 class="toggleContent">Cubismo</h3>
+                <div class="maxWidth row content hidden">
+                    <p class="container__resumo">O Cubismo, do século XX, inovou ao fragmentar objetos em formas
+                        geométricas e múltiplas perspectivas. Dividido em
+                        Analítico (formas quebradas, cores neutras) e Sintético (colagens, cores vivas), priorizou
+                        abstração e criatividade, impactando a arte moderna.</p>
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/pablo_picasso.png" alt="Imagem de arte cubista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Les Demoiselles d'Avignon" (1907) - Pablo Picasso</h2>
+                                <p>Mulheres com formas
+                                    angulares e distorcidas,
+                                    influenciada pela arte africana e ibérica.</p>
+                                <a href="html/Les Demoiselles d'Avignon (1907) - Pablo Picasso.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/georges_braque.jpg" alt="Imagem de arte cubista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Violino e Candeeiro" (1910) - Georges Braque</h2>
+                                <p>Fragmenta objetos em formas
+                                    geométricas, desafiando a percepção tradicional do espaço.</p>
+                                <a href="html/Violino e Candeeiro (1910) - Georges Braque.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/fernand_leger.jpg" alt="Imagem de arte cubista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Cidade" (1919) - Fernand Léger</h2>
+                                <p>Paisagem urbana refletindo a
+                                    modernidade e a industrialização.</p>
+                                <a href="html/A Cidade (1919) - Fernand Léger.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/jean_metzinger.jpg" alt="Imagem de arte cubista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Homem do Café" (1912) - Jean Metzinger</h2>
+                                <p>Humano em planos geométricos, explorando a simultaneidade de perspectivas e a
+                                    abstração da forma.</p>
+                                <a href="html/O Homem do Café (1912) - Jean Metzinger.html"
+                                    class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/robert_delaunay.jpg" alt="Imagem de arte cubista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Torre Eiffel" (1911) - Robert Delaunay</h2>
+                                <p>Esta obra usa formas geométricas e cores vibrantes para capturar a energia e a
+                                    modernidade do ícone parisiense.</p>
+                                <a href="html/A Torre Eiffel (1911) - Robert Delaunay.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/pablo_picasso-2.png" alt="Imagem de arte cubista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Retrato de Ambroise Vollard" (1910) - Pablo Picasso
+                                </h2>
+                                <p>O rosto do marchand de arte é fragmentado em múltiplas perspectivas geométricas.</p>
+                                <a href="html/Retrato de Ambroise Vollard (1910) - Pablo Picasso.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/georges_braque-2.jpg" alt="Imagem de arte cubista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Violino" (1912) - Georges Braque</h2>
+                                <p>Introdução de colagens de papel e texturas, explorando
+                                    a sobreposição de planos e a
+                                    abstração de formas.</p>
+                                <a href="html/O Violino (1912) - Georges Braque.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/gino_severini.jpg" alt="Imagem de arte cubista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Dançarina" (1912) - Gino Severini</h2>
+                                <p>Elementos cubistas com influências futuristas, é retratado uma figura em um ambiente
+                                    dinâmico e fragmentado.</p>
+                                <a href="html/A Dançarina (1912) - Gino Severini.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region DADAÍSMO -->
+            <div class="mainContent__container">
+                <h3 class="toggleContent">Dadaísmo</h3>
+                <div class="maxWidth row content hidden">
+                    <p class="container__resumo">O Dadaísmo, movimento artístico e literário surgido durante a 1ª
+                        Guerra Mundial, criticava a sociedade, a arte
+                        tradicional e os valores estabelecidos. Com humor, absurdo e técnicas como colagem e ready-made,
+                        havia provocação
+                        e choque, questionando a própria essência da arte.</p>
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/duchamp.png" alt="Imagem de arte dadaísta">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Fonte" (1917) - Marcel Duchamp</h2>
+                                <p>Um urinol comum, apresentado como obra de arte, questionando os conceitos de autoria
+                                    e valor artístico.</p>
+                                <a href="html/Fonte (1917) - Marcel Duchamp.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/hannah_hoch.jpg" alt="Imagem de arte dadaísta">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Corte com a Faca de Cozinha" (1919) - Hannah Höch</h2>
+                                <p>Colagem que critica a sociedade alemã pós-guerra, com imagens fragmentadas e
+                                    satíricas.</p>
+                                <a href="html/Corte com a Faca de Cozinha (1919) - Hannah Höch.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/man_ray.jpg" alt="Imagem de arte dadaísta">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Objeto Indestrutível" (1923) - Man Ray</h2>
+                                <p>Um metrônomo com uma foto de um olho, simbolizando a passagem do tempo e a obsessão.
+                                </p>
+                                <a href="html/Objeto Indestrutível (1923) - Man Ray.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/francis_picabia.jpg"
+                                alt="Imagem de arte dadaísta">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Udnie" (1913) - Francis Picabia</h2>
+                                <p>Pintura abstrata que mistura formas orgânicas e mecânicas, explorando a ambiguidade.
+                                </p> <a href="html/Udnie (1913) - Francis Picabia.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/kurt_schwitters.jpg" alt="Imagem de arte dadaísta">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Merz 460" (1922) - Kurt Schwitters</h2>
+                                <p>Colagem feita com objetos do cotidiano, criando uma composição caótica e poética.</p>
+                                <a href="html/Merz 460 (1922) - Kurt Schwitters.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/jean_arp.jpg" alt="Imagem de arte dadaísta">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Colagem com Quadrados" (1916) - Jean Arp</h2>
+                                <p>Composição abstrata que desafia a lógica e a ordem, usando formas geométricas
+                                    aleatórias.</p>
+                                <a href="html/Colagem com Quadrados (1916) - Jean Arp.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/raoul_hausmann.jpg" alt="Imagem de arte dadaísta">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Espírito do Nosso Tempo" (1920) - Raoul Hausmann</h2>
+                                <p>Escultura que critica a sociedade mecanizada e desumanizada.</p>
+                                <a href="html/O Espírito do Nosso Tempo (1920) - Raoul Hausmann.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/sophie_taeuber-arp.jpg"
+                                alt="Imagem de arte dadaísta">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Cabeça Dada" (1920) - Sophie Taeuber-Arp</h2>
+                                <p>Escultura abstrata que combina formas geométricas e cores vibrantes, refletindo o
+                                    espírito Dada.</p> <a href="html/Cabeça Dada (1920) - Sophie Taeuber-Arp.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region EXPRESSIONISMO -->
+            <div class="mainContent__container">
+                <h3 class="toggleContent">Expressionismo</h3>
+                <div class="maxWidth row content hidden">
+                    <p class="container__resumo">O Expressionismo é um movimento do século XX que prioriza emoções
+                        intensas, usando formas distorcidas e cores vibrantes retratarando angústia e paixão, focando na
+                        visão interior e crítica social, com obras emocionalmente impactantes.</p>
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/edvard_munch.jpg" alt="Imagem de arte expressionista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Grito" (1893) - Edvard Munch</h2>
+                                <p>Uma figura em um
+                                    cenário distorcido, simbolizando a
+                                    ansiedade e o desespero humano.</p>
+                                <a href="html/O Grito (1893) - Edvard Munch.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/van_gogh.jpg" alt="Imagem de arte expressionista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Noite Estrelada" (1889) - Vincent van Gogh</h2>
+                                <p>Um céu turbulento, expressando as emoções intensas e a visão do artista sobre a
+                                    natureza.</p>
+                                <a href="html/Noite Estrelada (1889) - Vincent van Gogh.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/wassily_kandisnsky-2.jpg" alt="Imagem de arte expressionista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Cavaleiro Azul" (1903) - Wassily Kandinsky</h2>
+                                <p>Cores vibrantes e formas fluidas para
+                                    expressar emoções e espiritualidade.</p>
+                                <a href="html/O Cavaleiro Azul (1903) - Wassily Kandinsky.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/gustav_klimt.jpg" alt="Imagem de arte expressionista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Retrato de Adele Bloch-Bauer I" (1907) - Gustav Klimt
+                                </h2>
+                                <p>Um retrato que reflete a intensidade emocional e estética decorativa do
+                                    Expressionismo.</p>
+                                <a href="html/Retrato de Adele Bloch-Bauer I (1907) - Gustav Klimt.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/van_gogh-2.jpg" alt="Imagem de arte expressionista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Autorretrato com Orelha Cortada" (1889) - Vincent van
+                                    Gogh</h2>
+                                <p>Um autorretrato sobre o sofrimento e a instabilidade emocional do artista.</p>
+                                <a href="html/Autorretrato com Orelha Cortada (1889) - Vincent van Gogh.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/henri_matisse-2.jpg" alt="Imagem de arte expressionista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Mulher com Chapéu" (1905) - Henri Matisse</h2>
+                                <p>Um retrato vibrante que destaca a expressão emocional sobre a precisão formal.</p>
+                                <a href="Mulher com Chapéu (1905) - Henri Matisse.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/franz_marc.jpg" alt="Imagem de arte expressionista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Pequeno Cavalo Azul" (1912) - Franz Marc</h2>
+                                <p>Uma obra que expressa a pureza e a conexão espiritual com a natureza.</p>
+                                <a href="html/O Pequeno Cavalo Azul (1912) - Franz Marc.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/kirchner.jpg" alt="Imagem de arte expressionista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Rua" (1913) - Ernst Ludwig Kirchner</h2>
+                                <p>Representação caótica de uma rua urbana, capturando a agitação e a alienação da vida
+                                    urbana.</p>
+                                <a href="html/A Rua (1913) - Ernst Ludwig Kirchner.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region FAUVISMO -->
+            <div class="mainContent__container">
+                <h3 class="toggleContent">Fauvismo</h3>
+                <div class="maxWidth row content hidden">
+                    <p class="container__resumo">O Fauvismo foi um movimento do início do século XX marcado por cores
+                        puras e vibrantes, pinceladas expressivas e formas
+                        simplificadas. Os fauvistas usavam a cor para transmitir emoções, distorcendo a realidade e
+                        abandonando o naturalismo.</p>
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/albert_marquet.jpg"
+                                alt="Imagem de arte fauvista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"La Plage de Fécamp" (1906) - Albert Marquet</h2>
+                                <p>Paisagem da praia de Fécamp, com cores vibrantes e pinceladas soltas, capturando a
+                                    luz do litoral.</p>
+                                <a href="html/La Plage de Fécamp (1906) - Albert Marquet.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/andre_derain.jpg" alt="Imagem de arte fauvista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Ponte de Londres" (1906) - André Derain</h2>
+                                <p>Paisagem urbana com cores não naturais, criando uma atmosfera vibrante e emocional.
+                                </p>
+                                <a href="html/A Ponte de Londres (1906) - André Derain.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/vlaminck.jpg" alt="Imagem de arte fauvista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Restaurante da Machine" (1905) - Maurice de Vlaminck
+                                </h2>
+                                <p>Cena cotidiana com cores intensas e pinceladas expressivas, típicas do Fauvismo.</p>
+                                <a href="html/Restaurante da Machine (1905) - Maurice de Vlaminck.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/friesz.png" alt="Imagem de arte fauvista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Le Port d'Anvers" (1906) - Emile-Othon Friesz</h2>
+                                <p>Paisagem do porto de Antuérpia, com cores vibrantes e formas simplificadas.</p> <a
+                                    href="html/Le Port d'Anvers (1906) - Emile-Othon Friesz.html"
+                                    class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/georges_braque-3.jpg" alt="Imagem de arte fauvista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Porto de Antuérpia" (1906) - Georges Braque</h2>
+                                <p>Paisagem portuária com cores intensas e pinceladas soltas, antes de sua transição
+                                    para o Cubismo.
+                                </p>
+                                <a href="html/O Porto de Antuérpia (1906) - Georges Braque.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/henri_manguin.jpg" alt="Imagem de arte fauvista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Le Golfe" (1905) - Henri Manguin</h2>
+                                <p>Paisagem do golfo de Saint-Tropez, no sul da França, utilizando cores vibrantes e
+                                    puras.</p>
+                                <a href="html/Le Golfe (1905) - Henri Manguin.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/louis_valtat.jpg" alt="Imagem de arte fauvista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Meninas Brincando Com Um Filhote de Leão" (1906) -
+                                    Louis Valtat</h2>
+                                <p>Uma cena lúdica e exótica, onde garotas interagem com um filhote de leão</p>
+                                <a href="html/Meninas Brincando Com Um Filhote de Leão (1906) - Louis Valtat.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/raoul_dufy.jpg" alt="Imagem de arte fauvista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Regata em Cowes" (1934) - Raoul Dufy</h2>
+                                <p>Cena de regata com cores vivas e formas simplificadas, capturando a energia e o
+                                    movimento.</p>
+                                <a href="html/Regata em Cowes (1934) - Raoul Dufy.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region FUTURISMO -->
+            <div class="mainContent__container">
+                <h3 class="toggleContent">Futurismo</h3>
+                <div class="maxWidth row content hidden">
+                    <p class="container__resumo">O Futurismo foi um movimento do início do século XX que celebrava a
+                        velocidade, a tecnologia e a modernidade, utilizando
+                        formas dinâmicas, cores vibrantes e linhas de força para capturar a energia do mundo moderno.
+                    </p>
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/umberto_boccioni.jpg" alt="Imagem de arte futurista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Formas Únicas de Continuidade no Espaço" (1913) -
+                                    Umberto Boccioni</h2>
+                                <p>Movimento e fluidez de uma figura em ação, simbolizando a energia moderna.</p>
+                                <a href="html/Formas Únicas de Continuidade no Espaço (1913) - Umberto Boccioni.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/giacomo_balla.jpg" alt="Imagem de arte futurista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Menina Correndo na Varanda" (1912) - Giacomo Balla</h2>
+                                <p>O movimento através de repetições e linhas dinâmicas, capturando a energia da ação.
+                                </p>
+                                <a href="html/Menina Correndo na Varanda (1912) - Giacomo Balla.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/carlo_carra.jpg" alt="Imagem de arte futurista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Funeral do Anarquista Galli" (1911) - Carlo Carrà
+                                </h2>
+                                <p>Cena caótica e dinâmica de um funeral, com formas fragmentadas e cores intensas.</p>
+                                <a href="html/O Funeral do Anarquista Galli (1911) - Carlo Carrà.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/gino_severini-2.jpg" alt="Imagem de arte futurista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Dança do Pan-Pan no Monico" (1911) - Gino Severini
+                                </h2>
+                                <p>Cena de dança, com cores e formas que transmitem movimento e energia.</p>
+                                <a href="html/A Dança do Pan-Pan no Monico (1911) - Gino Severini.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/luigi_russolo.jpg" alt="Imagem de arte futurista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A revolta" (1911) - Luigi Russolo</h2>
+                                <p>Cena urbana caótica, com formas fragmentadas e linhas de força que capturam a
+                                    agitação da cidade.
+                                </p>
+                                <a href="html/A revolta (1911) - Luigi Russolo.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/antonio_sant_elia.jpg" alt="Imagem de arte futurista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Cidade Nova" (1914) - Antonio Sant'Elia</h2>
+                                <p>Visão futurista de uma cidade moderna, com arranha-céus e estruturas dinâmicas.</p>
+                                <a href="html/Cidade Nova (1914) - Antonio Sant'Elia.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/giacomo_balla-2.jpg"
+                                alt="Imagem de arte futurista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Velocidade de uma Motocicleta" (1913) - Giacomo Balla
+                                </h2>
+                                <p>O movimento e a velocidade através de linhas dinâmicas e formas
+                                    fragmentadas.</p>
+                                <a href="html/Velocidade de uma Motocicleta (1913) - Giacomo Balla.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/umberto_boccioni-2.jpg" alt="Imagem de arte futurista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Cidade Sobe" (1910) - Umberto Boccioni</h2>
+                                <p>Representação da energia e do crescimento urbano, com formas fragmentadas e linhas de
+                                    força.</p>
+                                <a href="html/A Cidade Sobe (1910) - Umberto Boccioni.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region GÓTICO -->
+            <div class="mainContent__container">
+                <h3 class="toggleContent">Gótico</h3>
+                <div class="maxWidth row content hidden">
+                    <p class="container__resumo">O estilo Gótico (séculos XII-XVI) destacou-se pela verticalidade, luz e
+                        ornamentação. Arquitetura com arcos ogivais e vitrais;
+                        pintura e iluminura com temas religiosos realistas e expressivos.</p>
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/anonimo-6.jpg" alt="Imagem de arte gótica">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Catedral de Notre-Dame de Paris" (1163-1345) - Anônimo
+                                </h2>
+                                <p>Arquitetura gótica icônica que simboliza a verticalidade e a luz divina.</p>
+                                <a href="html/Catedral de Notre-Dame de Paris (1163-1345) - Anônimo.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/anonimo-7.JPG" alt="Imagem de arte gótica">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Fachada da Catedral de Salisbury" (século XIII) -
+                                    Anônimo</h2>
+                                <p>Exemplo de arquitetura gótica inglesa, com uma torre imponente e vitrais
+                                    impressionantes.</p>
+                                <a href="html/Fachada da Catedral de Salisbury (século XIII) - Anônimo.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/simone_martini.jpg" alt="Imagem de arte gótica">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Anunciação" (1333) - Simone Martini</h2>
+                                <p>Pintura em painel que retrata o momento da Anunciação, com detalhes refinados e cores
+                                    douradas.</p>
+                                <a href="html/A Anunciação (1333) - Simone Martini.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/duccio.jpg" alt="Imagem de arte gótica">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Maestà" (1311) - Duccio di Buoninsegna</h2>
+                                <p>Painel central de um retábulo, representando a Virgem Maria e o Menino Jesus cercados
+                                    por santos e anjos.</p>
+                                <a href="html/Maestà (1311) - Duccio di Buoninsegna.html"
+                                    class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/anonimo-10.jpg" alt="Imagem de arte gótica">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Vitrais da Catedral de Canterbury" (século XII) -
+                                    Anônimo</h2>
+                                <p>Vitrais que contam histórias bíblicas e da história da Inglaterra.</p> <a
+                                    href="html/Vitrais da Catedral de Canterbury (século XII) - Anônimo.html"
+                                    class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/anonimo-9.jpg" alt="Imagem de arte gótica">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Vitrais da Catedral de León" (século XIII) - Anônimo
+                                </h2>
+                                <p>Conhecida como a "Casa da Luz", possui vitrais que cobrem mais de 1.800 m².</p> <a
+                                    href="html/Vitrais da Catedral de León (século XIII) - Anônimo.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/anonimo-8.JPG" alt="Imagem de arte gótica">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Escadaria Dourada da Catedral de Burgos" (século XVI) -
+                                    Anônimo
+                                </h2>
+                                <p>Com elementos góticos e renascentistas, destaca a
+                                    grandiosidade
+                                    da catedral.</p>
+                                <a href="html/Escadaria Dourada da Catedral de Burgos (século XVI) - Anônimo.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/ambrogio_lorenzetti.jpg" alt="Imagem de arte gótica">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Efeitos do Bom Governo" (1338) - Ambrogio Lorenzetti
+                                </h2>
+                                <p>Afresco de uma vida urbana e rural sob um governo justo com detalhes
+                                    realistas.</p>
+                                <a href="html/Efeitos do Bom Governo (1338) - Ambrogio Lorenzetti.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region IMPRESSIONISMO -->
+            <div class="mainContent__container">
+                <h3 class="toggleContent">Impressionismo</h3>
+                <div class="maxWidth row content hidden">
+                    <p class="container__resumo">O Impressionismo capturou luz e cores com pinceladas soltas, focando em
+                        sensações visuais e momentos passageiros.
+                        Os artistas priorizaram a percepção imediata e a expressão pessoal, revolucionando a arte e
+                        influenciando o modernismo.</p>
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/monet.jpg" alt="Imagem de arte impressionista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Impressão, Nascer do Sol" (1872) - Claude Monet</h2>
+                                <p>Retrato do porto de Le Havre ao amanhecer, com pinceladas soltas e foco na luz e
+                                    cores.</p>
+                                <a href="html/Impressão, Nascer do Sol (1872) - Claude Monet.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/manet.jpg" alt="Imagem de arte impressionista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Almoço na Relva" (1863) - Édouard Manet</h2>
+                                <p>Cena polêmica de um piquenique, desafiando convenções artísticas da época.</p>
+                                <a href="html/Almoço na Relva (1863) - Édouard Manet.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/renoir.jpg"
+                                alt="Imagem de arte impressionista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Os Remadores" (1879) - Pierre-Auguste Renoir</h2>
+                                <p>Cena à beira do rio, capturando a luz do sol e a atmosfera descontraída.</p> <a
+                                    href="html/Os Remadores (1879) - Pierre-Auguste Renoir.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/pierre_auguste.jpg"
+                                alt="Imagem de arte impressionista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Moinho da Galette" (1876) - Pierre-Auguste Renoir</h2>
+                                <p>Cena vibrante de um baile ao ar livre, com luz e alegria.</p>
+                                <a href="html/Moinho da Galette (1876) - Pierre-Auguste Renoir.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/monet-2.jpg"
+                                alt="Imagem de arte impressionista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Ponte Japonesa" (1899) - Claude Monet</h2>
+                                <p>Interação entre luz, água e vegetação no jardim de Giverny.</p>
+                                <a href="html/A Ponte Japonesa (1899) - Claude Monet.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/johannes_vermeer.jpg"
+                                alt="Imagem de arte impressionista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Garota com o Brinco de Pérola" (1865) - Johannes
+                                    Vermeer</h2>
+                                <p>Uso de luz e foco na expressão humana, influenciando o Impressionismo.</p> <a
+                                    href="html/A Garota com o Brinco de Pérola (1865) - Johannes Vermeer.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/renoir-2.jpg"
+                                alt="Imagem de arte impressionista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Baile no Moulin de la Galette" (1876) -
+                                    Pierre-Auguste Renoir</h2>
+                                <p>Cena festiva de um baile popular em Paris, cheia de vida e movimento.</p>
+                                <a href="html/O Baile no Moulin de la Galette (1876) - Pierre-Auguste Renoir.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/camille_pissarro.jpg"
+                                alt="Imagem de arte impressionista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Avenida de l'Opéra" (1898) - Camille Pissarro</h2>
+                                <p>Vista aérea de Paris, com foco na luz e no movimento urbano.</p>
+                                <a href="html/Avenida de l'Opéra (1898) - Camille Pissarro.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region MEDIEVAL -->
+            <div class="mainContent__container">
+                <h3 class="toggleContent">Medieval</h3>
+                <div class="maxWidth row content hidden">
+                    <p class="container__resumo">A arte medieval, entre os séculos V e XV, foi marcada pela religião e
+                        espiritualidade. Destacou-se por representações simbólicas, cores vibrantes, temas bíblicos e
+                        técnicas como vitrais, afrescos e iluminuras.</p>
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/giotto.jpg" alt="Imagem de arte medieval">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Afrescos da Basílica de São Francisco" (século XIII) -
+                                    Giotto</h2>
+                                <p>Cenas da vida de São Francisco, marcando a transição para o realismo na arte
+                                    medieval.</p>
+                                <a href="html/Afrescos da Basílica de São Francisco (século XIII) - Giotto.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/hubert_van_eyck.jpg" alt="Imagem de arte medieval">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Retábulo de Ghent" (1432) - Hubert e Jan van Eyck
+                                </h2>
+                                <p>Uma obra-prima da pintura flamenga, que marca a transição para o Renascimento, com
+                                    detalhes realistas e cores vibrantes.
+                                </p>
+                                <a href="html/O Retábulo de Ghent (1432) - Hubert e Jan van Eyck.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/monges_irlandeses.jpg" alt="Imagem de arte medieval">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Livro de Kells" (século IX) - Monges Irlandeses</h2>
+                                <p>Manuscrito iluminado com detalhes intricados e cores vibrantes, contendo os
+                                    Evangelhos.</p>
+                                <a href="html/Livro de Kells (século IX) - Monges Irlandeses.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/anonimo-3.jpg" alt="Imagem de arte medieval">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Apocalipse de Bamberg" (século XI) - Anônimo</h2>
+                                <p>Manuscrito iluminado com cenas dramáticas do Apocalipse, ricamente decorado.</p> <a
+                                    href="html/Apocalipse de Bamberg (século XI) - Anônimo.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/anonimo-2.jpg" alt="Imagem de arte medieval">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Tapisseria de Bayeux" (século XI) - Anônimo</h2>
+                                <p>Bordado que narra a conquista normanda da Inglaterra, com cenas detalhadas e
+                                    narrativas.</p>
+                                <a href="html/Tapisseria de Bayeux (século XI) - Anônimo.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/anonimo-4.jpeg" alt="Imagem de arte medieval">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Portal Real da Catedral de Chartres" (século XII) -
+                                    Anônimo</h2>
+                                <p>Esculturas góticas que retratam figuras bíblicas e santos, com detalhes
+                                    impressionantes.</p>
+                                <a href="html/Portal Real da Catedral de Chartres (século XII) - Anônimo.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/irmaos_limbourg.jpg" alt="Imagem de arte medieval">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Très Riches Heures du Duc de Berry" (século XV) -
+                                    Irmãos Limbourg
+                                </h2>
+                                <p>Manuscrito iluminado com cenas religiosas e representações da vida cotidiana.</p>
+                                <a href="html/Très Riches Heures du Duc de Berry (século XV) - Irmãos Limbourg.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/anonimo-5.jpeg" alt="Imagem de arte medieval">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Afrescos de Santa Cecilia in Trastevere" (século IX) -
+                                    Anônimo</h2>
+                                <p>Pinturas murais que retratam santos e cenas bíblicas em uma igreja romana.</p> <a
+                                    href="html/Afrescos de Santa Cecilia in Trastevere (século IX) - Anônimo.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region MINIMALISMO -->
+            <div class="mainContent__container">
+                <h3 class="toggleContent">Minimalismo</h3>
+                <div class="maxWidth row content hidden">
+                    <p class="container__resumo">O Minimalismo, valoriza a simplicidade, formas
+                        geométricas puras e cores neutras. Elimina
+                        elementos supérfluos, focando na essência e na interação entre objeto, espaço e observador.</p>
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/donald_judd.jpg" alt="Imagem de arte minimalista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Untitled" (1969) - Donald Judd</h2>
+                                <p>Escultura de caixas de metal em sequência, explorando a repetição
+                                    e a simplicidade das formas.</p>
+                                <a href="html/Untitled (1969) - Donald Judd.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/agnes_martin.jpg" alt="Imagem de arte minimalista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Untitled" (1960) - Agnes Martin</h2>
+                                <p>Pintura com linhas sutis, explorando a simplicidade e a meditação através
+                                    da repetição.</p>
+                                <a href="html/Untitled (1960) - Agnes Martin.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/robert_morris.jpg" alt="Imagem de arte minimalista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Untitled (L-Beams)" (1965) - Robert Morris</h2>
+                                <p>Escultura composta por formas geométricas que exploram a percepção do espaço e da
+                                    forma.</p>
+                                <a href="html/Untitled (L-Beams) (1965) - Robert Morris.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/carl_andre.jpg" alt="Imagem de arte minimalista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Equivalent VIII" (1966) - Carl Andre</h2>
+                                <p>Instalação composta por tijolos dispostos em um padrão retangular, questionando o
+                                    conceito de
+                                    arte e materialidade.</p>
+                                <a href="html/Equivalent VIII (1966) - Carl Andre.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/dan_flavin.jpg" alt="Imagem de arte minimalista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Untitled (to Donna)" (1971) - Dan Flavin</h2>
+                                <p>Luzes fluorescentes que transformam o espaço, explorando a cor e a luz
+                                    como elementos artísticos.</p>
+                                <a href="html/Untitled (to Donna) (1971) - Dan Flavin.html"
+                                    class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/frank_stella.jpg" alt="Imagem de arte minimalista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Harran II" (1967) - Frank Stella</h2>
+                                <p>Pintura com formas geométricas e cores vibrantes, explorando a relação entre forma e
+                                    espaço.</p>
+                                <a href="html/Harran II (1967) - Frank Stella.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/sol_lewitt.jpg" alt="Imagem de arte minimalista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Wall Drawing #1136" (2004) - Sol LeWitt</h2>
+                                <p>Desenho mural composto por linhas e formas geométricas, explorando a repetição e a
+                                    simplicidade.
+                                </p>
+                                <a href="html/Wall Drawing (2004) - Sol LeWitt.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/anne_truitt.jpg" alt="Imagem de arte minimalista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"First" (1961) - Anne Truitt</h2>
+                                <p>Escultura vertical com cores sólidas, explorando a relação entre forma, cor e espaço.
+                                </p>
+                                <a href="html/First (1961) - Anne Truitt.html" class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region REALISMO -->
+            <div class="mainContent__container">
+                <h3 class="toggleContent">Realismo</h3>
+                <div class="maxWidth row content hidden">
+                    <p class="container__resumo">O Realismo, movimento do século XIX, retrata a realidade de forma
+                        objetiva, focando no cotidiano e em questões sociais,
+                        sem idealizações. Influenciou arte e literatura ao destacar desigualdades e verdades humanas.
+                    </p>
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/millet.jpg" alt="Imagem de arte realista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Angelus" (1859) - Jean-François Millet</h2>
+                                <p>Retrato de camponeses em oração, simbolizando a vida simples e devoção no campo.</p>
+                                <a href="html/O Angelus (1859) - Jean-François Millet.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/gustave_courbet.jpg"
+                                alt="Imagem de arte realista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Um Enterro em Ornans" (1850) - Gustave Courbet</h2>
+                                <p>Cena de um funeral rural, retratando pessoas comuns em tamanho real, rompendo com as
+                                    convenções artísticas.</p>
+                                <a href="html/Um Enterro em Ornans (1850) - Gustave Courbet.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/honore_daumier.jpg"
+                                alt="Imagem de arte realista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"As Lavadeiras" (1863) - Honoré Daumier</h2>
+                                <p>Retrato de mulheres trabalhando, destacando a vida dura das classes trabalhadoras.
+                                </p> <a href="html/As Lavadeiras (1863) - Honoré Daumier.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/rosa_bonheur.jpg"
+                                alt="Imagem de arte realista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Arado" (1849) - Rosa Bonheur</h2>
+                                <p>Cena de animais e trabalhadores rurais, destacando a relação entre humanos e
+                                    natureza.</p> <a href="html/O Arado (1849) - Rosa Bonheur.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/thomas_eakins.jpg"
+                                alt="Imagem de arte realista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Clínica Gross" (1875) - Thomas Eakins</h2>
+                                <p>Retrato de uma cirurgia real, mostrando a precisão científica e a atmosfera intensa.
+                                </p> <a href="html/A Clínica Gross (1875) - Thomas Eakins.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/edvard_munch-2.jpg"
+                                alt="Imagem de arte realista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Puberdade" (1894) - Edvard Munch</h2>
+                                <p>Retrato de uma jovem em um momento de transição, explorando temas de vulnerabilidade
+                                    e crescimento.</p> <a href="html/Puberdade (1894) - Edvard Munch.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/millais.jpg" alt="Imagem de arte realista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Ofélia" (1852) - John Everett Millais</h2>
+                                <p>Cena inspirada em Shakespeare, retratando Ofélia flutuando na água com detalhes
+                                    naturais realistas.</p>
+                                <a href="html/Ofélia (1852) - John Everett Millais.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/vasily_perov.jpg"
+                                alt="Imagem de arte realista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Caçadores em Descanso" (1871) - Vasily Perov</h2>
+                                <p>Retrato de caçadores em uma pausa, explorando a vida cotidiana e a natureza.</p> <a
+                                    href="html/Caçadores em Descanso (1871) - Vasily Perov.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region RENASCIMENTO -->
+            <div class="mainContent__container">
+                <h3 class="toggleContent">Renascimento</h3>
+                <div class="maxWidth row content hidden">
+                    <p class="container__resumo">O Renascimento, dos séculos XIV ao XVI, iniciado na Itália, destacou-se
+                        pelo humanismo, estudo da Antiguidade,
+                        perspectiva linear e naturalismo, valorizando o ser humano e a razão.</p>
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/leonardo_da_vinci.jpg" alt="Imagem de arte renascentista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Mona Lisa" (1503-1506) - Leonardo da Vinci</h2>
+                                <p>Retrato icônico que combina técnica de sfumato e expressão enigmática.</p>
+                                <a href="html/Mona Lisa (1503-1506) - Leonardo da Vinci.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/michelangelo.jpg" alt="Imagem de arte renascentista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Criação de Adão" (1512) - Michelangelo</h2>
+                                <p>Afresco que retrata o momento em que Deus dá vida a Adão, parte do teto da Capela
+                                    Sistina.</p>
+                                <a href="html/A Criação de Adão (1512) - Michelangelo.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/rafael.jpg" alt="Imagem de arte renascentista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Escola de Atenas" (1509-1511) - Rafael Sanzio</h2>
+                                <p>Afresco que retrata filósofos da Antiguidade, simbolizando o humanismo e o
+                                    conhecimento clássico.
+                                </p>
+                                <a href="html/A Escola de Atenas (1509-1511) - Rafael Sanzio.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/sandro_botticelli.jpg" alt="Imagem de arte renascentista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Nascimento de Vênus" (1485) - Sandro Botticelli</h2>
+                                <p>Pintura que retrata a deusa Vênus emergindo do mar, com cores suaves e formas
+                                    elegantes.</p>
+                                <a href="html/O Nascimento de Vênus (1485) - Sandro Botticelli.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/tiziano.jpg" alt="Imagem de arte renascentista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Vênus de Urbino" (1538) - Tiziano</h2>
+                                <p>Retrato sensual da deusa Vênus, com cores ricas e detalhes realistas.</p>
+                                <a href="html/Vênus de Urbino (1538) - Tiziano.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/durer.jpg" alt="Imagem de arte renascentista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Autorretrato" (1500) - Albrecht Dürer</h2>
+                                <p>Retrato que reflete a autoimagem do artista como um intelectual e criador.</p>
+                                <a href="html/Autorretrato (1500) - Albrecht Dürer.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/jan_van_eyck.jpg" alt="Imagem de arte renascentista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Casamento dos Arnolfini" (1434) - Jan van Eyck</h2>
+                                <p>Pintura que retrata um casal em seu ambiente doméstico, com detalhes realistas e
+                                    simbolismo.</p>
+                                <a href="html/O Casamento dos Arnolfini (1434) - Jan van Eyck.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/hieronymus_bosch.jpg" alt="Imagem de arte renascentista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Jardim das Delícias Terrenas" (1503-1515) -
+                                    Hieronymus Bosch</h2>
+                                <p>Tríptico que retrata o paraíso, o pecado e o inferno, com detalhes fantásticos e
+                                    simbólicos.</p>
+                                <a href="html/O Jardim das Delícias Terrenas (1503-1515) - Hieronymus Bosch.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region ROCOCÓ -->
+            <div class="mainContent__container">
+                <h3 class="toggleContent">Rococó</h3>
+                <div class="maxWidth row content hidden">
+                    <p class="container__resumo">O Rococó, estilo do século XVIII, destacou elegância, leveza e
+                        ornamentação detalhada, com temas galantes e cores suaves, refletindo o refinamento
+                        aristocrático.</p>
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/fragonard.jpg" alt="Imagem de arte rococó">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Balanço" (1767) - Jean-Honoré Fragonard</h2>
+                                <p>Cena galante e lúdica, com cores suaves e detalhes ornamentais, simbolizando a leveza
+                                    e a alegria
+                                    do Rococó.</p>
+                                <a href="html/O Balanço (1767) - Jean-Honoré Fragonard.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/francois_boucher.jpg" alt="Imagem de arte rococó">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Odalisca" (1745) - François Boucher</h2>
+                                <p>Retrato sensual e elegante, com cores suaves e detalhes decorativos, típico do estilo
+                                    Rococó.</p>
+                                <a href="html/A Odalisca (1745) - François Boucher.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/antoine_watteau.jpg" alt="Imagem de arte rococó">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Peregrinação à ilha de Citera" (1717) - Antoine Watteau
+                                </h2>
+                                <p>Cena pastoral que retrata uma festa galante, com figuras elegantes e atmosfera
+                                    sonhadora.</p>
+                                <a href="html/Peregrinação à ilha de Citera (1717) - Antoine Watteau.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/chardin.jpg" alt="Imagem de arte rococó">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Garota com a Raquete" (1740) - Jean-Baptiste-Siméon
+                                    Chardin</h2>
+                                <p>Retrato intimista e delicado, com foco na simplicidade e na beleza cotidiana.</p>
+                                <a href="html/A Garota com a Raquete (1740) - Jean-Baptiste-Siméon Chardin.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/le_brun.jpg" alt="Imagem de arte rococó">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Maria Antonieta com uma Rosa" (1783) - Élisabeth Louise
+                                    Vigée Le Brun</h2>
+                                <p>Rainha Maria Antonieta, com trajes elegantes e detalhes decorativos.
+                                </p>
+                                <a href="html/Maria Antonieta com uma Rosa (1783) - Élisabeth Louise Vigée Le Brun.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/tiepolo.jpg" alt="Imagem de arte rococó">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Apoteose da Família Pisani" (1761) - Giovanni
+                                    Battista Tiepolo</h2>
+                                <p>Afresco que retrata uma cena celestial, com cores suaves e figuras em movimento.</p>
+                                <a href="html/A Apoteose da Família Pisani (1761) - Giovanni Battista Tiepolo.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/thomas_gainsborough.jpg" alt="Imagem de arte rococó">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Senhora Sheridan" (1785) - Thomas Gainsborough</h2>
+                                <p>Retrato elegante e delicado, com trajes luxuosos e fundo paisagístico.</p>
+                                <a href="html/A Senhora Sheridan (1785) - Thomas Gainsborough.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img">
+                            <img src="images/greuze.jpg" alt="Imagem de arte rococó">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Menina Morta com seus Pássaros" (1765) -
+                                    Jean-Baptiste Greuze
+                                </h2>
+                                <p>Cena emocional e sentimental, com foco na expressão e nos detalhes realistas.</p>
+                                <a href="html/A Menina Morta com seus Pássaros (1765) - Jean-Baptiste Greuze.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+            <!-- #region SURREALISMO -->
+            <div class="mainContent__container">
+                <h3 class="toggleContent">Surrealismo</h3>
+                <div class="maxWidth row content hidden">
+                    <p class="container__resumo">O Surrealismo, do século XX, explora sonhos e o inconsciente, criando
+                        cenas fantásticas que desafiam a lógica, revelando
+                        verdades ocultas e inovando a arte moderna.</p>
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/dali.jpg" alt="Imagem de arte surrealista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"A Persistência da Memória" (1931) - Salvador Dalí</h2>
+                                <p>Relógios derretidos em uma paisagem onírica, explorando o conceito de tempo e
+                                    realidade.</p>
+                                <a href="html/A Persistência da Memória (1931) - Salvador Dalí.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/rene_magritte.jpg"
+                                alt="Imagem de arte surrealista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Filho do Homem" (1964) - René Magritte</h2>
+                                <p>Um homem de terno com um rosto oculto por uma maçã, questionando identidade e
+                                    realidade.</p>
+                                <a href="html/O Filho do Homem (1964) - René Magritte.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/max_ernst.jpg"
+                                alt="Imagem de arte surrealista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Elefante de Celebes" (1921) - Max Ernst</h2>
+                                <p>Uma criatura mecânica surrealista, criada a partir de colagens e imagens distorcidas.
+                                </p> <a href="html/O Elefante de Celebes (1921) - Max Ernst.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/joan_miro.jpg"
+                                alt="Imagem de arte surrealista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"O Carnaval de Arlequim" (1925) - Joan Miró</h2>
+                                <p>Uma cena vibrante e caótica, cheia de formas abstratas e cores vivas, explorando o
+                                    inconsciente.</p>
+                                <a href="html/O Carnaval de Arlequim (1925) - Joan Miró.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/dali-2.jpg" alt="Imagem de arte surrealista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Sonho Causado pelo Voo de uma Abelha" (1944) - Salvador
+                                    Dalí</h2>
+                                <p>Uma cena onírica com elementos flutuantes, explorando a relação entre sonho e
+                                    realidade.</p>
+                                <a href="html/Sonho Causado pelo Voo de uma Abelha (1944) - Salvador Dalí.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/yves_tanguy.jpg"
+                                alt="Imagem de arte surrealista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Mama, Papa Está Ferido!" (1927) - Yves Tanguy</h2>
+                                <p>Paisagem com formas orgânicas e atmosfera misteriosa, explorando o
+                                    inconsciente.</p>
+                                <a href="html/Mama, Papa Está Ferido! (1927) - Yves Tanguy.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/andre_masson.jpg"
+                                alt="Imagem de arte surrealista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Metamorfoses" (1939) - André Masson</h2>
+                                <p>Formas fluidas e abstratas que exploram a transformação e o inconsciente.</p>
+                                <a href="html/Metamorfoses (1939) - André Masson.html" class="btn btn-saibaMais">Saiba
+                                    mais</a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="col col-sm-12 col-md-6 col-xl-3">
+                        <div class="artContainer__img"> <img src="images/leonora_carrington.jpg"
+                                alt="Imagem de arte surrealista">
+                            <div class="artContainer__overlay">
+                                <h2 class="artContainer__title">"Autorretrato" (1938) - Leonora Carrington</h2>
+                                <p>Uma representação simbólica da artista, com elementos fantásticos e animais místicos.
+                                </p>
+                                <a href="html/Autorretrato (1938) - Leonora Carrington.html"
+                                    class="btn btn-saibaMais">Saiba mais</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <!-- #endregion -->
+
+        </section>
+    </main>
+
+    <footer class="mainFooter maxWidth">
+        <p>Felipe Francisco &copy; Todos os direitos reservados</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Seleciona todos os botões com a classe .toggleContent
+            const toggleButtons = document.querySelectorAll('.toggleContent');
+
+            toggleButtons.forEach(button => {
+                button.addEventListener('click', function () {
+                    // Encontra o conteúdo associado ao botão clicado
+                    const content = button.nextElementSibling;
+
+                    if (content && content.classList.contains('content')) {
+                        // Verifica se o conteúdo já está visível
+                        const isContentVisible = content.classList.contains('visible');
+
+                        // Oculta todos os conteúdos visíveis
+                        toggleButtons.forEach(btn => {
+                            const otherContent = btn.nextElementSibling;
+                            if (otherContent && otherContent.classList.contains('visible')) {
+                                otherContent.classList.remove('visible');
+                                setTimeout(() => {
+                                    otherContent.style.display = 'none';
+                                }, 300); // Delay correspondente à duração da animação (0.3s)
+                                btn.classList.remove('ativo'); // Remove a classe "ativo" do botão
+                            }
+                        });
+
+                        // Se o conteúdo clicado já estava visível, oculta-o
+                        if (isContentVisible) {
+                            content.classList.remove('visible');
+                            setTimeout(() => {
+                                content.style.display = 'none';
+                            }, 300);
+                            button.classList.remove('ativo'); // Remove a classe "ativo" do botão
+                        } else {
+                            // Caso contrário, mostra o conteúdo clicado
+                            content.style.display = 'flex';
+                            setTimeout(() => {
+                                content.classList.add('visible');
+                            }, 10); // Pequeno delay para garantir que o display seja aplicado
+                            button.classList.add('ativo'); // Adiciona a classe "ativo" ao botão
+                        }
+                    } else {
+                        console.error('Conteúdo não encontrado!');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
